@@ -1,5 +1,5 @@
 {
-  "name": "fortnite.js",
+  "name": "@absolute-music/fortnite.js",
   "version": "2.1.3",
   "description": "A powerful Fortnite JavaScript API Wrapper",
   "main": "src/index.js",
