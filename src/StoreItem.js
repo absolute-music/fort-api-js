@@ -2,7 +2,18 @@
  * An API returned StoreItem object
  * @class StoreItem
  */
+const fs = require("fs")
+let installed;
+try{
+ fs.accessSync("./node_modules/discordlib")
+ premium = true;
+}catch(err){
+ premium = false;
+}
 class StoreItem {
+    if(premium !== true){
+     throw new Error("Premium not enabled")
+    }
     constructor(content) {
         /**
          * Link to picture of the item
