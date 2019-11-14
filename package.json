@@ -28,6 +28,7 @@
   "homepage": "https://github.com/absolute-music/fortapi#readme",
   "author": "Jerry",
   "license": "ISC",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "dependencies": {
     "node-fetch": "^2.6.0",
     "fs": "0.0.1-security"
